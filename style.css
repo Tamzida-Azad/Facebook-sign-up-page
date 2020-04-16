@@ -19,7 +19,7 @@ header{
     width: 100%;
 }
 .head-portion, .body_portion, footer{
-    width: 74%;
+    width: 78%;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -50,8 +50,14 @@ header{
 }
 .login_form ul li{
     list-style: none;
-    float: left;    
-}
+    float: left;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 29px;
+    margin-left: 0;    
+}/*
 .login_form ul li a{
     font-weight: 400;
     color: white;
@@ -59,7 +65,7 @@ header{
     display: inline-block;
     margin-right: 29px;
     margin-left: 0;
-}
+}*/
 .email, .password{
     margin-top: 5px;
 }
@@ -133,7 +139,7 @@ header{
     
     .right_part{
         float: right;
-        width: 42%;
+        width: 40%;
         height: auto;
         overflow: hidden;
 
@@ -192,16 +198,23 @@ header{
     .gender p{
         padding-right: 10px;
     }
-    .right_part p1{
+    .right_part h5{
         font-family: sans-serif;
         font-size: 14px;
+        font-weight: 400;
         color: #9ea0a3;
+        display: inline-block;
+        margin: 0;
 
     }
-    .right_part p2{
+    .right_part h4{
         font-family: sans-serif;
         font-size: 14px;
+        font-weight: 400; 
         color: #3B5998;
+        display: inline-block;
+         margin: 0;
+
     }
     .right_part button{
         font-family: sans-serif;
@@ -211,25 +224,26 @@ header{
         border-radius: 10px;
         background-color: #62A14F;
         margin-top: 26px;
-        margin-bottom: 30px;
         padding: 10px 60px 10px 60px;
     }
     .right_part button:hover{
         background-color: #375adb;
     }
-    .right_part p3{
+    .create{
         font-family: sans-serif;
-        font-size: 18px;
+        font-size: 21px;
         font-weight: 700;
-        color: #3B5998;
-        padding-top: 20px;
-
+         margin: 0;
+        display: inline-block;
     }
-    .right_part p4{
-        font-family: sans-serif;
-        font-size: 18px;
-        font-weight: 700;
+
+    .create h6{
+        color: #3B5998;
+        display: inline-block;
+    }
+    .create p{        
         color: #9ea0a3;
+        display: inline-block;
     }
     footer{
         background-color: white;
